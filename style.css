@@ -1,0 +1,116 @@
+body {
+    /* background-color: aqua; */
+    /* background: linear-gradient(violet, red, blue); */
+    /* background: radial-gradient(violet, red, blue); */
+}
+
+/* inicio menu */
+ 
+#menu{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.menu-list{
+    list-style: none;
+    text-decoration: none;
+}
+ 
+ 
+/* inicio productos */
+ 
+.productos-div{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.div-color1{
+    /* dar direccion: left, right, bottom*/
+    /*background: linear-gradient(to left, red, yellow, blue);*/
+
+    /* hacelo en diagonal 
+    background: linear-gradient(to bottom right, red, yellow, blue);*/
+
+    /* pocicion desde donde le decimos que empiece a degradar*/
+   background-color: yellow;
+    border: 2px black solid;
+    width: 150px;
+    height: 150px;
+    /*sirve para rotar la imagen
+    transform: rotate(250deg);*/
+    /*para trasldar la imgen
+    transform: translate(150px, 100px);*/
+ }
+
+ .div-color2{
+   background-color: blue;
+    border: 2px black solid;
+    width: 150px;
+    height: 150px;
+   /* transform: rotate(-45deg);
+    transform: translateY(-150px);*/
+
+    /* scale valor entre 1 y 0 achica; valor mayor a 1 agranda 
+    transform: scale(2,3);*/
+
+   /* transform: skew(120deg, 30deg);*/
+  /* transition: width 2s; */
+    /* transition: height 2s;*/
+    transition: height 2s, width 2s, transform 2s;
+    
+ }
+
+ /*div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+  }
+   
+  #div1 {transition-timing-function: linear;}
+  #div2 {transition-timing-function: ease;}
+  #div3 {transition-timing-function: ease-in;}
+  #div4 {transition-timing-function: ease-out;}
+  #div5 {transition-timing-function: ease-in-out;}*/
+   
+  div:hover {
+    width: 300px;
+  }
+  
+
+ .div-color2:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+ }
+
+ /* estilo de imagen*/
+ .img{
+     transition: width 2s, height 2s; 
+ }
+
+ .img:hover{
+    width: 400px;
+    height: 400px;
+    
+ }
+
+ .titulo-cubo{
+     background-color: black;
+     color: azure;
+ }
+
+#div-color{
+    border: 2px black solid;
+    width: 150px;
+    height: 150px;
+    /* background: linear-gradient(to bottom right, red, yellow);*/  /* DESDE */
+    background: linear-gradient(70deg, red, yellow); /* GRADOS */
+}
+
+/* inicio pie de pagina */
+ 
+#contacto{
+    display: flex;
+    justify-content: space-around;
+}

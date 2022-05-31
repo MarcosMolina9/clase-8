@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- lineas de estilo -->
+   <link rel="stylesheet" href="style.css">
+    <title>Clase-8</title>
+</head>
+<body>    
+    <header>
+        <h1>Título de la WEB</h1>      
+    </header>    
+    <nav>
+        <ul id="menu">
+            <li class="menu-list"><a href="#">Inicio</a></li>
+            <li class="menu-list"><a href="#productos">Productos</a></li>
+            <li class="menu-list"><a href="#sobreNosotros">Sobre Nosotros</a></li>
+            <li class="menu-list"><a href="#contacto">Contacto</a></li>
+        </ul>
+ 
+    </nav>
+    <div class="div-color1"><h4 class="titulo-cubo">soy un cubo</h4></div>
+    <div class="div-color2"><h4 class="titulo-cubo">soy un segundo cubo</h4></div>
+
+    <div id="div1">linear</div><br>
+    <div id="div2">ease</div><br>
+    <div id="div3">ease-in</div><br>
+    <div id="div4">ease-out</div><br>
+    <div id="div5">ease-in-out</div><br>
+    <section id="productos">      
+            <h2>Los mejores alimentos para tu mascota</h2>
+            <p>Este es el contenido principal de mi web.</p>
+            <article>
+                <div class="productos-div">
+                    <div class="productos-gatos">
+                        <h3>pro plan</h3>
+                        <img class="img"  src="./imag/comida de gatos.webp" alt="">
+                        <p>Precio $ 500</p>
+                        <button type="submit">Comprar</button>
+                    </div>
+                    <div class="productos-gatos">
+                        <h3>pro plan</h3>
+                        <img class="img" src="./imag/comida de gatos.webp"">
+                        <p>Precio $ 500</p>
+                        <button type="submit">Comprar</button>
+                    </div>
+                    <div class="productos-gatos">
+                        <h3>pro plan</h3>
+                        <img class="img" src="./imag/comida de gatos.webp" alt="">
+                        <p>Precio $ 500</p>
+                        <button type="submit">Comprar</button>
+                    </div>
+                </div>
+            </article>    
+    </section>
+ <footer>
+        <div id="contacto">
+            <div>
+                <h4>Redes sociales</h4>
+                <a href="#">Facebook</a>
+                <a href="#">Tiwtter</a>
+            </div>
+            <div class="form">
+                <h2>dejanos tu pregunta</h2>
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                     <div>
+                       <label for="name">Nombre:</label>
+                       <input type="text" id="name" name="user_name">
+                     </div>
+                     <div>
+                       <label for="mail">Correo electrónico:</label>
+                       <input type="email" id="mail" name="user_mail">
+                     </div>
+                     <div>
+                       <label for="msg">Mensaje:</label>
+                       <textarea id="msg" name="user_message"></textarea>
+                     </div>
+                     <div>
+                         <button type="submit">Enviar</button>
+                     </div>
+                    </ul>
+                   </form>
+            </div>
+        </div>
+    </footer>
+</body>  
+</html>   
